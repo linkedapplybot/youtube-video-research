@@ -1,0 +1,60 @@
+# Local runtime and secrets
+.env
+.env.*
+*.env
+secrets/
+credentials.json
+token.json
+config.json
+*.session
+*.session-journal
+*.pem
+*.key
+proxies.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+ENV/
+dist/
+build/
+
+# Node/browser automation
+node_modules/
+.playwright-mcp/
+playwright-report/
+test-results/
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+
+# Generated data and heavy artifacts
+*.log
+*.tmp
+*.zip
+*.tar
+*.tar.gz
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+*.m4a
+*.webm
+output/
+outputs/
+downloads/
+videos/
+data/
+*_research/
+*_2026/
